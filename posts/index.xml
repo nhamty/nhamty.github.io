@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on nty blogs</title>
-    <link>http://example.org/posts/</link>
+    <link>https://nhamty.github.io/posts/</link>
     <description>Recent content in Posts on nty blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 May 2021 16:10:35 +0700</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 May 2021 16:10:35 +0700</lastBuildDate><atom:link href="https://nhamty.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tôi kiếm sống bằng nghề gì?</title>
-      <link>http://example.org/posts/toi-kiem-song-bang-gi/</link>
+      <link>https://nhamty.github.io/posts/toi-kiem-song-bang-gi/</link>
       <pubDate>Sun, 23 May 2021 16:10:35 +0700</pubDate>
       
-      <guid>http://example.org/posts/toi-kiem-song-bang-gi/</guid>
+      <guid>https://nhamty.github.io/posts/toi-kiem-song-bang-gi/</guid>
       <description>Tôi làm kỹ sư triển khai ứng dụng.
 Cuộc đời xô đẩy, rong rủi thế nào tôi lại thành kỹ sư triển khai. Vậy kỹ sư triển khai là gì? Vì công ty tôi đang làm việc chỉ bán hệ thống phần mềm nên công việc của kỹ sư triển khai của công ty thường phải làm việc trực tiếp với khách hàng. Dựa trên các yêu cầu của khách hàng để cấu hình sản phẩm và đảm bảo sản phẩm hoạt động đúng với các yêu cầu đề ra.</description>
     </item>
