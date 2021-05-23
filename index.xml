@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 23 May 2021 16:10:35 +0700</lastBuildDate><atom:link href="https://nhamty.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Tôi là Tý</title>
+      <link>https://nhamty.github.io/about/</link>
+      <pubDate>Sun, 23 May 2021 18:29:55 +0700</pubDate>
+      
+      <guid>https://nhamty.github.io/about/</guid>
+      <description>Tôi là Tý  Tôi là một kỹ sư triển khai, mặc dù tôi thích gọi mình là lập trình viên hơn. Tôi cũng thích viết lách nhưng ngại bày tỏ tâm cang trước bàn dân thiên hạ nên chọn góc nhỏ này hi vọng ít người biết tới. Tôi thích viết Go nhưng phần lớn thời gian tôi làm việc với PL/SQL và MS Excel. Ngoài ra tôi cũng dùng C# và MS SQL để đi code dạo, những năm tháng khốn khó trong cuộc đời tôi dùng MS Access để kiếm cơm.</description>
+    </item>
+    
+    <item>
       <title>Tôi kiếm sống bằng nghề gì?</title>
       <link>https://nhamty.github.io/posts/toi-kiem-song-bang-gi/</link>
       <pubDate>Sun, 23 May 2021 16:10:35 +0700</pubDate>
@@ -15,15 +24,6 @@
       <guid>https://nhamty.github.io/posts/toi-kiem-song-bang-gi/</guid>
       <description>Tôi làm kỹ sư triển khai ứng dụng.
 Cuộc đời xô đẩy, rong rủi thế nào tôi lại thành kỹ sư triển khai. Vậy kỹ sư triển khai là gì? Vì công ty tôi đang làm việc chỉ bán hệ thống phần mềm nên công việc của kỹ sư triển khai của công ty thường phải làm việc trực tiếp với khách hàng. Dựa trên các yêu cầu của khách hàng để cấu hình sản phẩm và đảm bảo sản phẩm hoạt động đúng với các yêu cầu đề ra.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://nhamty.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nhamty.github.io/about/</guid>
-      <description>Tôi là Tý  Tôi là một kỹ sư triển khai, mặc dù tôi thích gọi mình là lập trình viên hơn. Tôi cũng thích viết lách nhưng ngại bày tỏ tâm cang trước bàn dân thiên hạ nên chọn góc nhỏ này hi vọng ít người biết tới. Tôi thích viết Go nhưng phần lớn thời gian tôi làm việc với PL/SQL và MS Excel. Ngoài ra tôi cũng dùng C# và MS SQL để đi code dạo, những năm tháng khốn khó trong cuộc đời tôi dùng MS Access để kiếm cơm.</description>
     </item>
     
   </channel>
