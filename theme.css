@@ -22,10 +22,10 @@ h1,h2,h3{font-family:"Titillium Web",sans-serif;font-weight:600;color:var(--teal
 .posts_listing li{margin:0 0 14px;padding:12px 18px;background:var(--panel);border-left:4px solid var(--teal);
   transition:.2s}
 .posts_listing li:hover{background:#0d2b35;box-shadow:0 0 16px #5fd4d022}
-.posts_listing h2{margin:0;font-size:20px}
+.posts_listing h2{margin:0;font-size:20px;padding:0;background:none;border:0}
 .date,#sub-header{font:12px "Share Tech Mono",monospace;color:var(--amber);letter-spacing:.06em}
 #content h1{font-size:28px;padding:8px 18px;background:var(--panel);border-left:4px solid var(--teal)}
-#content h2,#content h3{margin-top:28px;font-size:20px;padding:4px 14px;background:var(--panel);border-left:4px solid var(--teal)}
+#content h2:not(.posts_listing h2),#content h3{margin-top:28px;font-size:20px;padding:4px 14px;background:var(--panel);border-left:4px solid var(--teal)}
 .entry-content{background:#08181ecc;border:1px solid var(--line);padding:6px 24px}
 blockquote{font-family:inherit;text-align:left;padding:8px 18px;margin:16px 0;border-left:3px solid var(--amber);background:var(--panel)}
 blockquote:before,blockquote:after{content:none}
