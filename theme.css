@@ -1,0 +1,38 @@
+/* HUD dashboard theme — overrides the inline Hugo styles */
+:root{--bg:#050e13;--panel:#0a1f27;--line:#12414b;--teal:#5fd4d0;--text:#b8dcd9;--dim:#6b9a9a;--amber:#e8903c}
+html body{background:radial-gradient(ellipse at top,#0b2a33 0,var(--bg) 60%) fixed;color:var(--text);
+  font:15px/1.7 "Titillium Web","Open Sans",sans-serif;max-width:920px;padding:0 20px 60px}
+body *{color:inherit}
+a,a:visited{color:var(--teal);text-decoration:none}
+a:hover{color:#fff;text-decoration:none!important;text-shadow:0 0 8px var(--teal)}
+h1,h2,h3{font-family:"Titillium Web",sans-serif;font-weight:600;color:var(--teal)}
+/* top bar */
+#nav{margin:0 -20px;padding:14px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;
+  background:linear-gradient(#0b3038,#08222a);border-bottom:2px solid var(--teal);box-shadow:0 2px 18px #5fd4d033}
+#nav h1{margin:0}
+#nav h1 a{font-size:24px;color:var(--teal);letter-spacing:.05em;text-shadow:0 0 10px #5fd4d066}
+#nav h1 a::after{content:"_";animation:b 1s steps(1) infinite}
+@keyframes b{50%{opacity:0}}
+#nav ul{display:flex;margin:0}
+#nav li{display:block;padding:0 0 0 22px;font:13px "Share Tech Mono",monospace;text-transform:uppercase;letter-spacing:.08em}
+#nav li:before{content:none}
+#nav li a{color:var(--amber)}
+/* panels */
+#content{padding:32px 0}
+.posts_listing li{margin:0 0 14px;padding:12px 18px;background:var(--panel);border-left:4px solid var(--teal);
+  transition:.2s}
+.posts_listing li:hover{background:#0d2b35;box-shadow:0 0 16px #5fd4d022}
+.posts_listing h2{margin:0;font-size:20px}
+.date,#sub-header{font:12px "Share Tech Mono",monospace;color:var(--amber);letter-spacing:.06em}
+#content h1{font-size:28px;padding:8px 18px;background:var(--panel);border-left:4px solid var(--teal)}
+#content h2,#content h3{margin-top:28px;font-size:20px;padding:4px 14px;background:var(--panel);border-left:4px solid var(--teal)}
+.entry-content{background:#08181ecc;border:1px solid var(--line);padding:6px 24px}
+blockquote{font-family:inherit;text-align:left;padding:8px 18px;margin:16px 0;border-left:3px solid var(--amber);background:var(--panel)}
+blockquote:before,blockquote:after{content:none}
+pre,code{font-family:"Share Tech Mono",monospace;background:#03090c;color:#8fe3c8;border:1px solid var(--line)}
+pre code{border:0}
+hr{width:100%;background:var(--line)}
+img{border:1px solid var(--line);padding:4px;background:var(--panel)}
+ul li:before{color:var(--amber)}
+#not-found a{font-family:"Share Tech Mono",monospace;color:var(--teal)}
+@media(max-width:600px){#nav{flex-direction:column;gap:8px}#nav li{padding:0 10px}}
